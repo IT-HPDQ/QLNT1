@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5572b70c268b49b68ac2527625376b92" Name="Diagram1">
+        <EntityTypeShape EntityType="QLNhaThauModel.Card" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.CardNhanVien" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.CauHinhPheDuyet" Width="1.5" PointX="8.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.GiaHanHD" Width="1.5" PointX="6" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.HopDong" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.KeQuaHoc" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.NguoiDung" Width="1.5" PointX="5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.NhanVien" Width="1.5" PointX="2.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.NhanVienNT" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.NhaThau" Width="1.5" PointX="3.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.PhanQuyen" Width="1.5" PointX="7.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.PhongBan" Width="1.5" PointX="1.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.Quyen" Width="1.5" PointX="5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNhaThauModel.sysdiagram" Width="1.5" PointX="8.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="QLNhaThauModel.FK_CardNhanVien_Card" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_CardNhanVien_NhanVienNT" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_GiaHanHD_HopDong" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_HopDong_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_KeQuaHoc_HopDong" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_KeQuaHoc_NhanVienNT" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_KeQuaHoc_NhaThau" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_NguoiDung_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_PhanQuyen_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNhaThauModel.FK_PhanQuyen_Quyen" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
